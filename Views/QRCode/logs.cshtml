@@ -1,0 +1,62 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+@model IEnumerable<QRCodeAttendance.Models.logsModel>
+
+@{
+    ViewData["Title"] = "Submission Logs";
+}
+
+<h1>logs</h1>
+
+<p>
+    <a asp-action="CreateLog">Create New</a>
+</p>
+<form asp-controller="QRCode" asp-action="logs" method="get">
+    <p>
+        User Name: <input type="text" name="SearchString" value=@ViewBag.key1 />
+        Start Date: <input type="date" name="startdate" value=@ViewBag.startdate />
+        End Date: <input type="date" name="enddate" value=@ViewBag.enddate />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @if ((await AuthorizationService.AuthorizeAsync(User, "ADMINPolicy")).Succeeded)
+                    {
+                        <a asp-action="Editlog" asp-route-id="@item.Id">Edit |</a>;
+                           
+                        <a asp-action="Deletelog" asp-route-id="@item.Id">Delete |</a>
+                    }
+                    <a asp-action="Detailslog" asp-route-id="@item.Id">Detail</a> 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+@model QRCodeAttendance.Models.QRCodeModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is a demo web app for QRCode Registration and Submision you can register  <a href="https://localhost:5001/QRCode/Registration">Here </a>or submit your code <a href="https://localhost:5001/QRCode/Submission">Here</a></p>
+</div>
+

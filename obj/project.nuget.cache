@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "dgSpecHash": "BJvo4WOMFCLA0tgX2LjJyWLk5IEzzY2j8siH7dbtB9D+Bqc9pJRGmVN9kA15xACG52lcTCZK7fEBoETTxDKwig==",
+  "success": true,
+  "projectFilePath": "/Users/amir/Projects/QRCodeAttendance/QRCodeAttendance/QRCodeAttendance.csproj",
+  "expectedPackageFiles": [
+    "/Users/amir/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/amir/.nuget/packages/messagingtoolkit.qrcode/1.3.0/messagingtoolkit.qrcode.1.3.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.17/microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.17/microsoft.aspnetcore.cryptography.keyderivation.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/5.0.17/microsoft.aspnetcore.identity.entityframeworkcore.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.entityframeworkcore/5.0.17/microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.17/microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.17/microsoft.entityframeworkcore.analyzers.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.entityframeworkcore.design/5.0.17/microsoft.entityframeworkcore.design.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.17/microsoft.entityframeworkcore.relational.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.caching.memory/5.0.0/microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.2/microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.identity.core/5.0.17/microsoft.extensions.identity.core.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.identity.stores/5.0.17/microsoft.extensions.identity.stores.5.0.17.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/npgsql/5.0.15/npgsql.5.0.15.nupkg.sha512",
+    "/Users/amir/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.10/npgsql.entityframeworkcore.postgresql.5.0.10.nupkg.sha512",
+    "/Users/amir/.nuget/packages/runtime.osx.10.10-x64.corecompat.system.drawing/5.8.64/runtime.osx.10.10-x64.corecompat.system.drawing.5.8.64.nupkg.sha512",
+    "/Users/amir/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/amir/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/amir/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/amir/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/Users/amir/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "/Users/amir/.nuget/packages/system.drawing.common/5.0.3/system.drawing.common.5.0.3.nupkg.sha512",
+    "/Users/amir/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "/Users/amir/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.12/microsoft.netcore.app.host.osx-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MessagingToolkit.QRCode 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MessagingToolkit.QRCode",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

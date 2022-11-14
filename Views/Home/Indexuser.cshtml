@@ -1,0 +1,15 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+@model QRCodeAttendance.Models.QRCodeModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is a demo web app for QRCode Registration and Submision Here is your QR Code Tag and your uniqe Code :  
+    <p><img src="@Model.ActtualFileUrl" /></p>
+    <p> @Model.UserCode</p>
+</div>
+        

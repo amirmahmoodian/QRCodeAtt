@@ -1,0 +1,49 @@
+﻿@model QRCodeAttendance.Models.QRCodeModel
+
+@{
+    ViewData["Title"] = "Summission";
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SubmissionTag" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label asp-for="FileUri" class="control-label">Upload File</label>
+                    <input asp-for="FileUri" class="form-control" />
+                    <span asp-validation-for="FileUri" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="validate QR Code" class="btn btn-primary text-center" />
+                </div>
+            </div>
+            <div class="form-group" >
+                @ViewBag.QrCodeUri
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SubmissionCode" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label asp-for="UserCode" class="control-label">Enter the Code</label>
+                    <input asp-for="UserCode" class="form-control" />
+                    <span asp-validation-for="UserCode" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="validate Code" class="btn btn-primary text-center"  />
+                </div>
+            </div>
+            <div class="form-group" >
+                @ViewBag.code
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

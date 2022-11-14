@@ -1,0 +1,32 @@
+﻿@model QRCodeAttendance.Models.QRCodeModel
+
+@{
+    ViewData["Title"] = "Registration";
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Registration">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Generate QR Code" class="btn btn-primary text-center" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4" style="position:relative; left:250px; top:100px; border:none;">
+        <div class="form-group">
+            <img src="@ViewBag.QrCodeUri" />
+        </div>
+        <div class="form-group">
+            <big style="position:relative; left:20px; top:20px; border:none;"> @ViewBag.UserCode</big>
+        </div>
+    </div>
+</div>
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
